@@ -1,0 +1,14 @@
+
+.main-page-container {
+    display: flex;
+    justify-content: space-between;
+}
+.main-page-container > .rigth-container {
+    width: 70%;
+    margin-left: 2.5%;
+    
+}
+
+.main-page-container > .left-container {
+    width: 30%;
+}

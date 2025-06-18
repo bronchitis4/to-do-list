@@ -1,0 +1,60 @@
+.task-wrapper {
+    display: inline-block;
+    min-width: 200px;
+    width: 95%;
+    min-height: 100px;
+    background-color: #70AABD;
+    border-radius: 16px;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+    padding: 16px 16px 0px;
+    transition: all ease 0.2s;
+}
+
+.task-action-btns img, .check-box {
+    cursor: pointer;
+}
+
+
+* {
+  user-select: none;
+}
+
+.check-box {
+    width: 35px;
+    height: 35px;
+    background-color: #A1C2D1;
+}
+.main-task-info {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.main-task-info h3 {
+    margin: 0px;
+}
+
+
+.check-des-btn {
+    cursor: pointer;
+    color: white;
+    text-decoration: underline;
+}
+
+.task-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-action-btns {
+    width: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.task-action-btns img {
+    width: 25px;
+    height: 25px;
+}
